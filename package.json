@@ -1,23 +1,26 @@
 {
   "name": "my-web-portfolio",
   "version": "1.0.0",
-  "description": "cool",
-  "main": "index.js",
+  "description": "about myself",
+  "main": "gulpfile.js",
+  "homepage": "https://github.io/RalphLens/my-web-portfolio/",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "gh-pages": "^2.1.1",
+    "jquery": "^3.4.1"
+  },
+  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/RalphLens/my-web-portfolio.git"
   },
   "author": "Ralph Asher Abihay",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/RalphLens/my-web-portfolio/issues"
-  },
-  "homepage": "https://github.com/RalphLens/my-web-portfolio#readme",
-  "devDependencies": {
-    "bootstrap": "^4.3.1",
-    "jquery": "^3.4.1"
   }
 }
