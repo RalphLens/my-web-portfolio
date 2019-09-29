@@ -18,6 +18,7 @@
     "url": "https://github.com/RalphLens/my-web-portfolio/issues"
   },
   "dependencies": {
+    "font-awesome": "^4.7.0",
     "gh-pages-deploy": "^0.5.1"
   },
   "devDependencies": {
